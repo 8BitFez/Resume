@@ -1,101 +1,139 @@
 <!doctype html>
 <html lang="en">
-  <head>
+    <head>
+<!-- dont look at me im naked!-->
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="Css/index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="Css/index.css">
+    <!--extra Stuff-->
+        <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <title>Saul Villasenor</title>
+    </head>
 
-    <title>Hello, world!</title>
-  </head>
-  
-  <body>
-  
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Home</a>
-    </nav>
-  
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Name jumbotron</h1>
-        <p class="lead">Bio info here:This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-      </div>
+    <body>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">Home</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Work <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">GitHub <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Hobbies <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+<!--Well look at you being all nose today!-->
+        <div class="jumbotron jumbotron-fluid">
+        <canvas id="c"></canvas>
+            <div class="container">
+                <h1 class="display-4" id="head-font">Saul Villasenor</h1>
+                <p class="lead">Bring on the Singularity, I'm ready to see how much we have left to learn.</p>
+            </div>
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-body">
+                    <h1 id="head-font" >Hello, world! Im still in the works</h1>
+                        <p>Hello and welcome to my website it is hosted on linode and maintain by me. As you can see by my bad puns im still learning the Ropes of Life, Tech, Emotions. When you think i will be done you say? well Never or maybe when i retire and have grandkids so i can call then to teach me how to send a holoMail thuough the quntum-net for the 30th time that day. Just thinking about the future. Oh what you wanted to stuff about learn about me? well i like the color purple, doing things the hard way, Mexican food, Cyberpunk styles. the hard way was not an induendo it was a refenced to me learning linux and buillding a website from the ground up with nginx when i could of got squarespace and made it look 10 times better!</p>
+                </div>
+            </div>
+        <div class="row">
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="Assests/900-600.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Past works experiance</h5>
+                        <p class="card-text">Jobs I Had in the past With Details of Postion, Responesabilites, time frame: also incudes a PDF printable version</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="Assests/900-600.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Code on Git hub</h5>
+                        <p class="card-text">My GitHub account include everything from small scripts for Linux to project code and everything form in between</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://github.com/8BitFez" class="card-link">Card link</a>
+                    </div>
+                </div>
+            </div>
+<!-- you should at least by me dinner First!-->
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="Assests/900-600.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Projects</h5>
+                        <p class="card-text">Some project I work on in school or on my own time compleate with devloment log pictures and Ice Cream.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="Assests/900-600.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Hobbies</h5>
+                        <p class="card-text">here are some odd thing i do on my own that can be considerd valueable to some people:Note No Ice Cream here</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                    <h4 class="card-title">Blog's latest Post</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
-  
-    <div class="container-fluid">
-      
-      <div class="card">
-        <div class="card-body">
-        <h1>Hello, world! Im still in the works</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam molestie auctor diam, sed vestibulum sem facilisis eget. Pellentesque vitae pretium leo. Phasellus at lorem orci. Nunc at molestie augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse sit amet sapien id urna scelerisque fermentum vel ut diam. Nullam sem sem, fringilla vitae mauris id, bibendum rutrum elit. Nunc lorem tellus, placerat ac magna in, imperdiet porttitor dui. Duis vehicula nulla ac feugiat convallis.</p>
-       </div>
-      </div>
-      
-      <div class="row">
-        
-        <div class="col-md-3">
-          <div class="card">
-        <img class="card-img-top" src="" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-       <div class="card-body">
-         <a href="#" class="card-link">Card link</a>
-         <a href="#" class="card-link">Another link</a>
-       </div>
-  </div>
-        </div>
-        
-        <div class="col-md-3">
-          <div class="card">
-        <img class="card-img-top" src="" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-       <div class="card-body">
-         <a href="#" class="card-link">Card link</a>
-         <a href="#" class="card-link">Another link</a>
-       </div>
-  </div>
-        </div>
-        
-        <div class="col-md-3">
-          <div class="card">
-        <img class="card-img-top" src="" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-       <div class="card-body">
-         <a href="#" class="card-link">Card link</a>
-         <a href="#" class="card-link">Another link</a>
-       </div>
- </div>
-        </div>
-        
-        <div class="col-md-3">
-          <div class="card">
-        <img class="card-img-top" src="" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-       <div class="card-body">
-         <a href="#" class="card-link">Card link</a>
-         <a href="#" class="card-link">Another link</a>
-       </div>
-  </div>
-        </div>
-        
-      </div>
-    
+    <div class="card">
+        <p>footer</p>
     </div>
+  <!--So did you like the Show cuz i did't you were still fully clothes can i get some equality here? -->
+
   <!-- Optional JavaScript -->
+    <script src='https://rawgit.com/snorpey/glitch-canvas/master/dist/glitch-canvas-browser-with-polyfills.min.js'></script>
+    <script src="p5/p5.js"></script>
+    <script  src="Js/index.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
