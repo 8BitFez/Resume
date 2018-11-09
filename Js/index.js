@@ -7,7 +7,6 @@ var SPEED = 0.014;
 var P_GLITCH = 0.005;
 var GLITCH_PAUSE_DURATION = [1000, 1200]; // min, max in ms.
 var COLOR = [255, 55, 255];
-var TITLE = 'CYBER PILOT';
 var rombas = [];
 var rombas_out = 0;
 //what your looking at me too?
